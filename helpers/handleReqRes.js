@@ -52,7 +52,7 @@ handler.handleReqRes = (req, res) => {
 
         console.log(realData);
         // response handle
-        res.end('Hello world');
+        //res.end('Hello world');
     });
 };
 

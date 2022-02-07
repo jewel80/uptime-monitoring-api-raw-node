@@ -10,7 +10,7 @@ const handler = {};
 
 handler.handleReqRes = (req, res) => {
     // request handling
-    // get the url and parse it
+    //// get the url and parse it
     const parsedUrl = url.parse(req.url, true);
     const path = parsedUrl.pathname;
     const trimmedPath = path.replace(/^\/+|\/+$/g, '');

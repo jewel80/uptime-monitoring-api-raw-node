@@ -7,7 +7,7 @@ const envirolment = require('./helpers/environments')
 // app object - module scaffolding
 const app = {};
 
-//test..........
+// FOR Test...
 // data.delete('test', 'newFile', (err) => {
 //     console.log(`Error was, ${err}`);
 // })

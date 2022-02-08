@@ -2,15 +2,15 @@
 const http = require('http');
 const { handleReqRes } = require('./helpers/handleReqRes');
 const envirolment = require('./helpers/environments')
-const data = require('./lib/data')
+// const data = require('./lib/data')
 
 // app object - module scaffolding
 const app = {};
 
 //test..........
-data.create('test', 'newFiles', {'name': 'rana', 'dist': 'sirajgonj'}, (err) => {
-    console.log(`Error was, ${err}`);
-})
+// data.delete('test', 'newFile', (err) => {
+//     console.log(`Error was, ${err}`);
+// })
 
 // configuration
 app.config = {

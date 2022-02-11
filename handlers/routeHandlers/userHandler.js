@@ -60,6 +60,7 @@ handler._users.post = (requestProperties, callback) => {
                     password: hash(password),
                     tosAgreement,
                 };
+
                 // store the user to db
                 data.create('users', phone, userObject, (err2) => {
                     if (!err2) {
@@ -154,7 +155,7 @@ handler._users.put = (requestProperties, callback) => {
                     if (password) {
                         userData.password = hash(password);
                     }
-console.log(userData);
+                    console.log(userData);
                     // store to database
                     data.update('users', phone, userData, (err2) => {
                         if (!err2) {
